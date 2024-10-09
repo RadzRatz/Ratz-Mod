@@ -1,6 +1,7 @@
 package net.radzratz.eternalitems;
 
 import net.minecraft.world.item.CreativeModeTabs;
+import net.radzratz.eternalitems.item.ModCreativeModeTabs;
 import net.radzratz.eternalitems.item.Moditems;
 import org.slf4j.Logger;
 
@@ -38,6 +39,8 @@ public class EternalItems
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
 
+        ModCreativeModeTabs.register(modEventBus);
+
         Moditems.register(modEventBus);
 
         // Register the item to a creative tab
@@ -56,8 +59,15 @@ public class EternalItems
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
 
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            //Items
             event.accept(Moditems.DEMONIC_HEART);
             event.accept(Moditems.SOURCE_MANIFESTATION);
+            event.accept(Moditems.RATZ_HEAD);
+            event.accept(Moditems.ANTIMATTER_FUSE);
+            event.accept(Moditems.GREGTASTIC_ATOMIC_PHD);
+            event.accept(Moditems.CAPACITOR);
+            //Ingots
+            event.accept(Moditems.STEEL_INGOT);
         }
     }
 
