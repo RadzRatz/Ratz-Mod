@@ -13,14 +13,14 @@ But this mod was created with the intent to be used in --LOTS-- of Modpacks, but
 
 We also added new items for known mods like:
 
-**Ars Nouveau**
-**Applied Energistics 2** (NYI)
-**EvilCraft** (NIY)
-**EnderIO** (NYI)
-**GregTech**
-**Mekanism**
-**Occultism**
-**Productive Bees** (NYI)
+**Ars Nouveau**,
+**Applied Energistics 2** (NYI),
+**EvilCraft** (NIY),
+**EnderIO** (NYI),
+**GregTech**,
+**Mekanism**,
+**Occultism**,
+**Productive Bees** (NYI),
 
 KubeJS
 ============
