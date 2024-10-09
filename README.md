@@ -1,25 +1,56 @@
 
-Installation information
+About
 =======
 
-This template repository can be directly cloned to get you started with a new
-mod. Simply create a new repository cloned from this one, by following the
-instructions provided by [GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
+Eternal Items mod adds quite a lot of known items to a single mod.
 
-Once you have your clone, simply open the repository in the IDE of your choice. The usual recommendation for an IDE is either IntelliJ IDEA or Eclipse.
+Whether you want Ingots, Gears, Ore Blocks and even Raw Ores, you will find 'almost' EVERYTHING in one spot!
 
-If at any point you are missing libraries in your IDE, or you've run into problems you can
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
-{this does not affect your code} and then start the process again.
+We even have quite a lot of NEW Items for you use!
 
-Mapping Names:
+**Note**: These items DO NOT HAVE a recipe included, items such as Gears, Ingots, Ore Blocks and Raw Ores do have a recipe!
+But this mod was created with the intent to be used in --LOTS-- of Modpacks, but ||**Catalyst Evolution Modpack**|| is the main focus of this mod.
+
+We also added new items for known mods like:
+
+**Ars Nouveau**
+**Applied Energistics 2** (NYI)
+**EvilCraft** (NIY)
+**EnderIO** (NYI)
+**GregTech**
+**Mekanism**
+**Occultism**
+**Productive Bees** (NYI)
+
+KubeJS
 ============
-By default, the MDK is configured to use the official mapping names from Mojang for methods and fields 
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/NeoForged/NeoForm/blob/main/Mojang.md
 
-Additional Resources: 
+As mentioned before, some items don't include a recipe, but you can add them with **KubeJS** to add an useful functionality and RECIPE.
+
+Don't know about KubeJS Mod?
+
+You can find all the needed Documentation in here: https://wiki.latvian.dev/books/kubejs/page/recipes
+
+Need more help?
+
+Go to their Discord Server to ask about this mod and its capabilities: https://discord.gg/lat
+
+Catalyst Evolution ModPack
 ==========
-Community Documentation: https://docs.neoforged.net/  
-NeoForged Discord: https://discord.neoforged.net/
+
+Modpack Link: https://www.curseforge.com/minecraft/modpacks/the-evolution-pack
+
+Discord Server Link: https://discord.gg/FAvjyGtDbf
+
+Contributions
+==========
+
+Want to contribute with **Translations**, **New Items** or **New Item Models**?
+
+Ask us to talk about the contributions you want to do!
+
+**Note**: With the Translations you are free to contribute without asking me, simply create a PR over Github and we'll gladly look at it.
+
+However, make sure to **NOT USE ANY TYPE OF AI ON IT**!!!
+
+We are looking for people that actually speak that language.

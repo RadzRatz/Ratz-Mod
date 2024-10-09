@@ -1,6 +1,7 @@
 package net.radzratz.eternalitems;
 
 import net.minecraft.world.item.CreativeModeTabs;
+import net.minecraft.world.item.MobBucketItem;
 import net.radzratz.eternalitems.item.ModCreativeModeTabs;
 import net.radzratz.eternalitems.item.Moditems;
 import org.slf4j.Logger;
@@ -66,8 +67,12 @@ public class EternalItems
             event.accept(Moditems.ANTIMATTER_FUSE);
             event.accept(Moditems.GREGTASTIC_ATOMIC_PHD);
             event.accept(Moditems.CAPACITOR);
+            event.accept(Moditems.BLACK_HOLE);
             //Ingots
             event.accept(Moditems.STEEL_INGOT);
+            event.accept(Moditems.GRAPHITE_INGOT);
+            //Gears
+            event.accept(Moditems.ULTIMATE_GEAR);
         }
     }
 

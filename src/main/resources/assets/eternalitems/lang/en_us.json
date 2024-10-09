@@ -3,8 +3,14 @@
   "item.eternalitems.source_manifestation": "Source Manifestation",
   "item.eternalitems.ratz_head": "RadzRatz Head",
   "item.eternalitems.antimatter_fuse": "Antimatter Fuse",
+  "item.eternalitems.capacitor": "Capacitor",
   "item.eternalitems.gregtastic_atomic_phd": "GregTastic Atomic PHD™",
+  "item.eternalitems.black_hole": "Black Hole",
+
   "item.eternalitems.steel_ingot": "Steel Ingot",
+  "item.eternalitems.graphite_ingot": "Graphite Ingot",
+
+  "item.eternalitems.ultimate_gear": "Ultimate Gear",
 
   "creativetab.eternalitems.eternal_items": "Eternal Items",
   "creativetab.eternalitems.eternal_ingots": "Eternal Ingots"

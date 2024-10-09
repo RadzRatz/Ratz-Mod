@@ -23,9 +23,17 @@ public class Moditems {
             ()-> new Item(new Item.Properties()));
     public static final DeferredItem<Item> CAPACITOR = ITEMS.register("capacitor",
             ()-> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> BLACK_HOLE = ITEMS.register("black_hole",
+            ()-> new Item(new Item.Properties()));
 
     //Ingots
     public static final DeferredItem<Item> STEEL_INGOT = ITEMS.register("steel_ingot",
+            ()-> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> GRAPHITE_INGOT = ITEMS.register("graphite_ingot",
+            ()-> new Item(new Item.Properties()));
+
+    //Gears
+    public static final DeferredItem<Item> ULTIMATE_GEAR = ITEMS.register("ultimate_gear",
             ()-> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {

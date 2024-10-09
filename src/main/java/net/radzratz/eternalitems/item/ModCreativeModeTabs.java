@@ -25,6 +25,7 @@ public class ModCreativeModeTabs {
                         output.accept(Moditems.ANTIMATTER_FUSE);
                         output.accept(Moditems.GREGTASTIC_ATOMIC_PHD);
                         output.accept(Moditems.CAPACITOR);
+                        output.accept(Moditems.BLACK_HOLE);
                     }).build());
 
     public static final Supplier<CreativeModeTab> ETERNAL_INGOTS_TAB = CREATIVE_MODE_TAB.register("eternal_ingots_tab",
@@ -33,6 +34,15 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.eternalitems.eternal_ingots"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(Moditems.STEEL_INGOT);
+                        output.accept(Moditems.GRAPHITE_INGOT);
+                    }).build());
+
+    public static final Supplier<CreativeModeTab> ETERNAL_GEARS_TAB = CREATIVE_MODE_TAB.register("eternal_gears_tab",
+            ()-> CreativeModeTab.builder().icon(()-> new ItemStack(Moditems.ULTIMATE_GEAR.get()))
+                    .withTabsBefore(ResourceLocation.fromNamespaceAndPath(EternalItems.MOD_ID, "eternal_items_tab"))
+                    .title(Component.translatable("creativetab.eternalitems.eternal_gears"))
+                    .displayItems((itemDisplayParameters, output) -> {
+                        output.accept(Moditems.ULTIMATE_GEAR);
                     }).build());
 
 
