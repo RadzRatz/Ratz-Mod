@@ -6,12 +6,55 @@
   "item.eternalitems.capacitor": "Capacitor",
   "item.eternalitems.gregtastic_atomic_phd": "GregTastic Atomic PHD™",
   "item.eternalitems.black_hole": "Black Hole",
+  "item.eternalitems.comet_shard": "Comet Shard",
+  "item.eternalitems.forgotten_sea_coin": "Forgotten Sea Coin",
+  "item.eternalitems.eternal_vortex": "Eternal Vortex",
 
   "item.eternalitems.steel_ingot": "Steel Ingot",
   "item.eternalitems.graphite_ingot": "Graphite Ingot",
+  "item.eternalitems.osmium_ingot": "Osmium Ingot",
+  "item.eternalitems.aluminum_ingot": "Aluminum Ingot",
+  "item.eternalitems.uranium_ingot": "Uranium Ingot",
+
+  "item.eternalitems.osmium_nugget": "Osmium Nugget",
+  "item.eternalitems.uranium_nugget": "Uranium Nugget",
+
+  "item.eternalitems.rod_osmium": "Osmium Rod",
+  "item.eternalitems.rod_uranium": "Uranium Rod",
+
+  "item.eternalitems.plate_osmium": "Osmium Plate",
+  "item.eternalitems.plate_uranium": "Uranium Plate",
 
   "item.eternalitems.ultimate_gear": "Ultimate Gear",
 
+  "item.eternalitems.raw_uranium": "Raw Uranium Ore",
+  "item.eternalitems.raw_osmium": "Raw Osmium Ore",
+  "item.eternalitems.raw_platinum": "Raw Platinum Ore",
+  "item.eternalitems.raw_tin": "Raw Tin Ore",
+  "item.eternalitems.raw_lead": "Raw Lead Ore",
+  "item.eternalitems.raw_aluminum": "Raw Aluminum Ore",
+  "item.eternalitems.raw_nickel": "Raw Nickel Ore",
+  "item.eternalitems.raw_silver": "Raw Silver Ore",
+
+  "block.eternalitems.uranium_ore_block": "Uranium Ore",
+  "block.eternalitems.osmium_ore_block": "Osmium Ore",
+
+  "block.eternalitems.deepslate_osmium_ore_block": "Deepslate Osmium Ore",
+
+  "block.eternalitems.raw_osmium_block": "Raw Osmium Block",
+  "block.eternalitems.raw_uranium_block": "Raw Uranium Block",
+
+  "block.eternalitems.osmium_block": "Osmium Block",
+  "block.eternalitems.uranium_block": "Uranium Block",
+
   "creativetab.eternalitems.eternal_items": "Eternal Items",
-  "creativetab.eternalitems.eternal_ingots": "Eternal Ingots"
+  "creativetab.eternalitems.eternal_ingots": "Eternal Ingots",
+  "creativetab.eternalitems.eternal_ore_blocks": "Eternal Ore Blocks",
+  "creativetab.eternalitems.eternal_raw_ores": "Eternal Raw Ores",
+  "creativetab.eternalitems.eternal_gears": "Eternal Gears",
+  "creativetab.eternalitems.eternal_nuggets": "Eternal Nuggets",
+  "creativetab.eternalitems.eternal_raw_ore_blocks": "Eternal Raw Ore Blocks",
+  "creativetab.eternalitems.eternal_blocks": "Eternal Blocks",
+  "creativetab.eternalitems.eternal_rods": "Eternal Rods",
+  "creativetab.eternalitems.eternal_plates": "Eternal Plates"
 }

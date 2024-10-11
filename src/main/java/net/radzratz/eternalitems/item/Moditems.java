@@ -9,10 +9,9 @@ import net.radzratz.eternalitems.EternalItems;
 public class Moditems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(EternalItems.MOD_ID);
 
+    //Items
     public static final DeferredItem<Item> DEMONIC_HEART = ITEMS.register("demonic_heart",
             ()-> new Item(new Item.Properties()));
-
-    //Items
     public static final DeferredItem<Item> SOURCE_MANIFESTATION = ITEMS.register("source_manifestation",
             ()-> new Item(new Item.Properties()));
     public static final DeferredItem<Item> RATZ_HEAD = ITEMS.register("ratz_head",
@@ -25,16 +24,65 @@ public class Moditems {
             ()-> new Item(new Item.Properties()));
     public static final DeferredItem<Item> BLACK_HOLE = ITEMS.register("black_hole",
             ()-> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> COMET_SHARD = ITEMS.register("comet_shard",
+            ()-> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> FORGOTTEN_SEA_COIN = ITEMS.register("forgotten_sea_coin",
+            ()-> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> ETERNAL_VORTEX = ITEMS.register("eternal_vortex",
+            ()-> new Item(new Item.Properties()));
 
     //Ingots
     public static final DeferredItem<Item> STEEL_INGOT = ITEMS.register("steel_ingot",
             ()-> new Item(new Item.Properties()));
     public static final DeferredItem<Item> GRAPHITE_INGOT = ITEMS.register("graphite_ingot",
             ()-> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> OSMIUM_INGOT = ITEMS.register("osmium_ingot",
+            ()-> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> ALUMINUM_INGOT = ITEMS.register("aluminum_ingot",
+            ()-> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> URANIUM_INGOT = ITEMS.register("uranium_ingot",
+            ()-> new Item(new Item.Properties()));
+
+    //Nuggets
+    public static final DeferredItem<Item> OSMIUM_NUGGET = ITEMS.register("osmium_nugget",
+            ()-> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> URANIUM_NUGGET = ITEMS.register("uranium_nugget",
+            ()-> new Item(new Item.Properties()));
+
+    //Rods
+    public static final DeferredItem<Item> ROD_OSMIUM = ITEMS.register("rod_osmium",
+            ()-> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> ROD_URANIUM = ITEMS.register("rod_uranium",
+            ()-> new Item(new Item.Properties()));
+
+    //Plates
+    public static final DeferredItem<Item> PLATE_OSMIUM = ITEMS.register("plate_osmium",
+            ()-> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> PLATE_URANIUM = ITEMS.register("plate_uranium",
+            ()-> new Item(new Item.Properties()));
 
     //Gears
     public static final DeferredItem<Item> ULTIMATE_GEAR = ITEMS.register("ultimate_gear",
             ()-> new Item(new Item.Properties()));
+
+    //Raw Ores
+    public static final DeferredItem<Item> RAW_URANIUM = ITEMS.register("raw_uranium",
+            ()-> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> RAW_OSMIUM = ITEMS.register("raw_osmium",
+            ()-> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> RAW_PLATINUM = ITEMS.register("raw_platinum",
+            ()-> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> RAW_TIN = ITEMS.register("raw_tin",
+            ()-> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> RAW_LEAD = ITEMS.register("raw_lead",
+            ()-> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> RAW_ALUMINUM = ITEMS.register("raw_aluminum",
+            ()-> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> RAW_NICKEL = ITEMS.register("raw_nickel",
+            ()-> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> RAW_SILVER = ITEMS.register("raw_silver",
+            ()-> new Item(new Item.Properties()));
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

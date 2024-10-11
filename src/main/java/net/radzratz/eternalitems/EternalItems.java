@@ -1,7 +1,7 @@
 package net.radzratz.eternalitems;
 
 import net.minecraft.world.item.CreativeModeTabs;
-import net.minecraft.world.item.MobBucketItem;
+import net.radzratz.eternalitems.block.ModBlocks;
 import net.radzratz.eternalitems.item.ModCreativeModeTabs;
 import net.radzratz.eternalitems.item.Moditems;
 import org.slf4j.Logger;
@@ -43,6 +43,7 @@ public class EternalItems
         ModCreativeModeTabs.register(modEventBus);
 
         Moditems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -68,12 +69,53 @@ public class EternalItems
             event.accept(Moditems.GREGTASTIC_ATOMIC_PHD);
             event.accept(Moditems.CAPACITOR);
             event.accept(Moditems.BLACK_HOLE);
+            event.accept(Moditems.COMET_SHARD);
+            event.accept(Moditems.FORGOTTEN_SEA_COIN);
+            event.accept(Moditems.ETERNAL_VORTEX);
             //Ingots
             event.accept(Moditems.STEEL_INGOT);
             event.accept(Moditems.GRAPHITE_INGOT);
+            event.accept(Moditems.OSMIUM_INGOT);
+            event.accept(Moditems.ALUMINUM_INGOT);
+            event.accept(Moditems.URANIUM_INGOT);
+            //Nuggets
+            event.accept(Moditems.OSMIUM_NUGGET);
+            event.accept(Moditems.URANIUM_NUGGET);
+            //Rods
+            event.accept(Moditems.ROD_OSMIUM);
+            event.accept(Moditems.ROD_URANIUM);
+            //Plates
+            event.accept(Moditems.PLATE_OSMIUM);
+            event.accept(Moditems.PLATE_URANIUM);
             //Gears
             event.accept(Moditems.ULTIMATE_GEAR);
+            //Raw Ores
+            event.accept(Moditems.RAW_URANIUM);
+            event.accept(Moditems.RAW_OSMIUM);
+            event.accept(Moditems.RAW_PLATINUM);
+            event.accept(Moditems.RAW_TIN);
+            event.accept(Moditems.RAW_LEAD);
+            event.accept(Moditems.RAW_ALUMINUM);
+            event.accept(Moditems.RAW_NICKEL);
+            event.accept(Moditems.RAW_SILVER);
         }
+
+        if(event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
+            //ORE BLOCKS
+            event.accept(ModBlocks.URANIUM_ORE_BLOCK);
+            event.accept(ModBlocks.OSMIUM_ORE_BLOCK);
+            //DEEPSLATE ORE BLOCKS
+            event.accept(ModBlocks.DEEPSLATE_OSMIUM_ORE_BLOCK);
+            //RAW ORE BLOCKS
+            event.accept(ModBlocks.RAW_OSMIUM_BLOCK);
+            event.accept(ModBlocks.RAW_URANIUM_BLOCK);
+        }
+
+        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.OSMIUM_BLOCK);
+            event.accept(ModBlocks.URANIUM_BLOCK);
+        }
+
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call

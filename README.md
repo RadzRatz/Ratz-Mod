@@ -4,11 +4,11 @@ About
 
 Eternal Items mod adds quite a lot of known items to a single mod.
 
-Whether you want Ingots, Gears, Ore Blocks and even Raw Ores, you will find 'almost' EVERYTHING in one spot!
+Whether you want Ingots, Foods, Gears, Ore Blocks and even Raw Ores, you will find 'almost' EVERYTHING in one spot!
 
 We even have quite a lot of NEW Items for you use!
 
-**Note**: These items DO NOT HAVE a recipe included, items such as Gears, Ingots, Ore Blocks and Raw Ores do have a recipe!
+**Note**: These items DO NOT HAVE a recipe included, items such as Gears, Ingots, Metal Blocks, Nuggets, Ore Blocks and Raw Ores do have a recipe!
 But this mod was created with the intent to be used in --LOTS-- of Modpacks, but ||**Catalyst Evolution Modpack**|| is the main focus of this mod.
 
 We also added new items for known mods like:
@@ -48,6 +48,8 @@ Contributions
 Want to contribute with **Translations**, **New Items** or **New Item Models**?
 
 Ask us to talk about the contributions you want to do!
+
+We will add your Username and the items you contributed over the credits.
 
 **Note**: With the Translations you are free to contribute without asking me, simply create a PR over Github and we'll gladly look at it.
 
