@@ -18,11 +18,29 @@ public class ModBlocks {
             DeferredRegister.createBlocks(EternalItems.MOD_ID);
 
     //ORE BLOCKS
+    //Lead
+    public static final DeferredBlock<Block> LEAD_ORE_BLOCK = registerBlock("lead_ore_block",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(4f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)));
+    public static final DeferredBlock<Block> DEEPSLATE_LEAD_ORE_BLOCK = registerBlock("deepslate_lead_ore_block",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(4f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.DEEPSLATE)));
+    //Uranium
     public static final DeferredBlock<Block> URANIUM_ORE_BLOCK = registerBlock("uranium_ore_block",
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(4f)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.STONE)));
+    public static final DeferredBlock<Block> DEEPSLATE_URANIUM_ORE_BLOCK = registerBlock("deepslate_uranium_ore_block",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(4f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.DEEPSLATE)));
+    //Osmium
     public static final DeferredBlock<Block> OSMIUM_ORE_BLOCK = registerBlock("osmium_ore_block",
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(3f)
@@ -35,6 +53,11 @@ public class ModBlocks {
                     .sound(SoundType.DEEPSLATE)));
 
     //RAW ORE BLOCKS
+    public static final DeferredBlock<Block> RAW_LEAD_BLOCK = registerBlock("raw_lead_block",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(3f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)));
     public static final DeferredBlock<Block> RAW_OSMIUM_BLOCK = registerBlock("raw_osmium_block",
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(3f)
@@ -47,6 +70,11 @@ public class ModBlocks {
                     .sound(SoundType.STONE)));
 
     //METAL BLOCK
+    public static final DeferredBlock<Block> LEAD_BLOCK = registerBlock("lead_block",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(3f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)));
     public static final DeferredBlock<Block> OSMIUM_BLOCK = registerBlock("osmium_block",
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(3f)

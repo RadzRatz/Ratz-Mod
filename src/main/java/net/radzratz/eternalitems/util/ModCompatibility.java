@@ -8,4 +8,5 @@ public class ModCompatibility {
         return ModList.get().isLoaded(modId);
     }
 
+
 }

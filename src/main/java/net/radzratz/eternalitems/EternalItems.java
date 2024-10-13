@@ -1,6 +1,7 @@
 package net.radzratz.eternalitems;
 
 import net.minecraft.world.item.CreativeModeTabs;
+import net.neoforged.fml.ModList;
 import net.radzratz.eternalitems.block.ModBlocks;
 import net.radzratz.eternalitems.item.ModCreativeModeTabs;
 import net.radzratz.eternalitems.item.Moditems;
@@ -45,7 +46,23 @@ public class EternalItems
         Moditems.register(modEventBus);
         ModBlocks.register(modEventBus);
 
-        // Register the item to a creative tab
+        if(ModList.get().isLoaded("mekanism")) {
+
+        }
+        if(ModList.get().isLoaded("appliedenergistics2")) {
+
+        }
+        if(ModList.get().isLoaded("occultism")) {
+
+        }
+        if(ModList.get().isLoaded("gtceu")) {
+
+        }
+        if(ModList.get().isLoaded("productivebees")) {
+
+        }
+
+            // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
 
         // Register our mod's ModConfigSpec so that FML can create and load the config file for us
@@ -72,46 +89,62 @@ public class EternalItems
             event.accept(Moditems.COMET_SHARD);
             event.accept(Moditems.FORGOTTEN_SEA_COIN);
             event.accept(Moditems.ETERNAL_VORTEX);
+            event.accept(Moditems.MULTIPRESS);
             //Ingots
-            event.accept(Moditems.STEEL_INGOT);
-            event.accept(Moditems.GRAPHITE_INGOT);
-            event.accept(Moditems.OSMIUM_INGOT);
             event.accept(Moditems.ALUMINUM_INGOT);
+            event.accept(Moditems.ETERNAL_DARK_INGOT);
+            event.accept(Moditems.ETERNAL_LIGHT_INGOT);
+            event.accept(Moditems.GRAPHITE_INGOT);
+            event.accept(Moditems.LEAD_INGOT);
+            event.accept(Moditems.STEEL_INGOT);
+            event.accept(Moditems.OSMIUM_INGOT);
             event.accept(Moditems.URANIUM_INGOT);
             //Nuggets
+            event.accept(Moditems.LEAD_NUGGET);
             event.accept(Moditems.OSMIUM_NUGGET);
             event.accept(Moditems.URANIUM_NUGGET);
             //Rods
+            event.accept(Moditems.ROD_LEAD);
             event.accept(Moditems.ROD_OSMIUM);
             event.accept(Moditems.ROD_URANIUM);
             //Plates
+            event.accept(Moditems.PLATE_LEAD);
             event.accept(Moditems.PLATE_OSMIUM);
             event.accept(Moditems.PLATE_URANIUM);
             //Gears
             event.accept(Moditems.ULTIMATE_GEAR);
             //Raw Ores
-            event.accept(Moditems.RAW_URANIUM);
+            event.accept(Moditems.RAW_ALUMINUM);
+            event.accept(Moditems.RAW_LEAD);
+            event.accept(Moditems.RAW_NICKEL);
             event.accept(Moditems.RAW_OSMIUM);
             event.accept(Moditems.RAW_PLATINUM);
-            event.accept(Moditems.RAW_TIN);
-            event.accept(Moditems.RAW_LEAD);
-            event.accept(Moditems.RAW_ALUMINUM);
-            event.accept(Moditems.RAW_NICKEL);
             event.accept(Moditems.RAW_SILVER);
+            event.accept(Moditems.RAW_TIN);
+            event.accept(Moditems.RAW_URANIUM);
+            //Ore Dust
+            event.accept(Moditems.LEAD_DUST);
+            event.accept(Moditems.OSMIUM_DUST);
+            event.accept(Moditems.URANIUM_DUST);
         }
 
         if(event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
             //ORE BLOCKS
-            event.accept(ModBlocks.URANIUM_ORE_BLOCK);
+            event.accept(ModBlocks.LEAD_ORE_BLOCK);
             event.accept(ModBlocks.OSMIUM_ORE_BLOCK);
+            event.accept(ModBlocks.URANIUM_ORE_BLOCK);
             //DEEPSLATE ORE BLOCKS
+            event.accept(ModBlocks.DEEPSLATE_LEAD_ORE_BLOCK);
             event.accept(ModBlocks.DEEPSLATE_OSMIUM_ORE_BLOCK);
+            event.accept(ModBlocks.DEEPSLATE_URANIUM_ORE_BLOCK);
             //RAW ORE BLOCKS
+            event.accept(ModBlocks.RAW_LEAD_BLOCK);
             event.accept(ModBlocks.RAW_OSMIUM_BLOCK);
             event.accept(ModBlocks.RAW_URANIUM_BLOCK);
         }
-
+        //METAL BLOCKS
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.LEAD_BLOCK);
             event.accept(ModBlocks.OSMIUM_BLOCK);
             event.accept(ModBlocks.URANIUM_BLOCK);
         }

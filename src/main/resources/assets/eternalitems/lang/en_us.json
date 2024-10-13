@@ -9,19 +9,27 @@
   "item.eternalitems.comet_shard": "Comet Shard",
   "item.eternalitems.forgotten_sea_coin": "Forgotten Sea Coin",
   "item.eternalitems.eternal_vortex": "Eternal Vortex",
+  "item.eternalitems.multipress": "Multipress",
+  "item.eternalitems.undead_hand": "Undead Hand",
 
-  "item.eternalitems.steel_ingot": "Steel Ingot",
-  "item.eternalitems.graphite_ingot": "Graphite Ingot",
-  "item.eternalitems.osmium_ingot": "Osmium Ingot",
   "item.eternalitems.aluminum_ingot": "Aluminum Ingot",
+  "item.eternalitems.eternal_dark_ingot": "Eternal Dark Ingot",
+  "item.eternalitems.eternal_light_ingot": "Eternal Light Ingot",
+  "item.eternalitems.graphite_ingot": "Graphite Ingot",
+  "item.eternalitems.lead_ingot": "Lead Ingot",
+  "item.eternalitems.osmium_ingot": "Osmium Ingot",
+  "item.eternalitems.steel_ingot": "Steel Ingot",
   "item.eternalitems.uranium_ingot": "Uranium Ingot",
 
+  "item.eternalitems.lead_nugget": "Lead Nugget",
   "item.eternalitems.osmium_nugget": "Osmium Nugget",
   "item.eternalitems.uranium_nugget": "Uranium Nugget",
 
+  "item.eternalitems.rod_lead": "Lead Rod",
   "item.eternalitems.rod_osmium": "Osmium Rod",
   "item.eternalitems.rod_uranium": "Uranium Rod",
 
+  "item.eternalitems.plate_lead": "Lead Plate",
   "item.eternalitems.plate_osmium": "Osmium Plate",
   "item.eternalitems.plate_uranium": "Uranium Plate",
 
@@ -36,14 +44,23 @@
   "item.eternalitems.raw_nickel": "Raw Nickel Ore",
   "item.eternalitems.raw_silver": "Raw Silver Ore",
 
-  "block.eternalitems.uranium_ore_block": "Uranium Ore",
+  "item.eternalitems.lead_dust": "Lead Dust",
+  "item.eternalitems.osmium_dust": "Osmium Dust",
+  "item.eternalitems.uranium_dust": "Uranium Dust",
+
+  "block.eternalitems.lead_ore_block": "Lead Ore",
   "block.eternalitems.osmium_ore_block": "Osmium Ore",
+  "block.eternalitems.uranium_ore_block": "Uranium Ore",
 
+  "block.eternalitems.deepslate_lead_ore_block": "Deepslate Lead Ore",
   "block.eternalitems.deepslate_osmium_ore_block": "Deepslate Osmium Ore",
+  "block.eternalitems.deepslate_uranium_ore_block": "Deepslate Uranium Ore",
 
+  "block.eternalitems.raw_lead_block": "Raw Lead Block",
   "block.eternalitems.raw_osmium_block": "Raw Osmium Block",
   "block.eternalitems.raw_uranium_block": "Raw Uranium Block",
 
+  "block.eternalitems.lead_block": "Lead Block",
   "block.eternalitems.osmium_block": "Osmium Block",
   "block.eternalitems.uranium_block": "Uranium Block",
 
@@ -56,5 +73,6 @@
   "creativetab.eternalitems.eternal_raw_ore_blocks": "Eternal Raw Ore Blocks",
   "creativetab.eternalitems.eternal_blocks": "Eternal Blocks",
   "creativetab.eternalitems.eternal_rods": "Eternal Rods",
-  "creativetab.eternalitems.eternal_plates": "Eternal Plates"
+  "creativetab.eternalitems.eternal_plates": "Eternal Plates",
+  "creativetab.eternalitems.eternal_ore_dust": "Eternal Ore Dust"
 }

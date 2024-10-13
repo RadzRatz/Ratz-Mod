@@ -28,8 +28,10 @@ public class ModCreativeModeTabs {
                         output.accept(Moditems.ETERNAL_VORTEX);
                         output.accept(Moditems.FORGOTTEN_SEA_COIN);
                         output.accept(Moditems.GREGTASTIC_ATOMIC_PHD);
+                        output.accept(Moditems.MULTIPRESS);
                         output.accept(Moditems.RATZ_HEAD);
                         output.accept(Moditems.SOURCE_MANIFESTATION);
+                        output.accept(Moditems.UNDEAD_HAND);
                     }).build());
 //INGOTS
     public static final Supplier<CreativeModeTab> ETERNAL_INGOTS_TAB = CREATIVE_MODE_TAB.register("eternal_ingots_tab",
@@ -38,7 +40,10 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.eternalitems.eternal_ingots"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(Moditems.ALUMINUM_INGOT);
+                        output.accept(Moditems.ETERNAL_DARK_INGOT);
+                        output.accept(Moditems.ETERNAL_LIGHT_INGOT);
                         output.accept(Moditems.GRAPHITE_INGOT);
+                        output.accept(Moditems.LEAD_INGOT);
                         output.accept(Moditems.STEEL_INGOT);
                         output.accept(Moditems.OSMIUM_INGOT);
                         output.accept(Moditems.URANIUM_INGOT);
@@ -49,6 +54,7 @@ public class ModCreativeModeTabs {
                     .withTabsBefore(ResourceLocation.fromNamespaceAndPath(EternalItems.MOD_ID, "eternal_items_tab"))
                     .title(Component.translatable("creativetab.eternalitems.eternal_nuggets"))
                     .displayItems((itemDisplayParameters, output) -> {
+                        output.accept(Moditems.LEAD_NUGGET);
                         output.accept(Moditems.OSMIUM_NUGGET);
                         output.accept(Moditems.URANIUM_NUGGET);
                     }).build());
@@ -58,6 +64,7 @@ public class ModCreativeModeTabs {
                     .withTabsBefore(ResourceLocation.fromNamespaceAndPath(EternalItems.MOD_ID, "eternal_items_tab"))
                     .title(Component.translatable("creativetab.eternalitems.eternal_rods"))
                     .displayItems((itemDisplayParameters, output) -> {
+                        output.accept(Moditems.ROD_LEAD);
                         output.accept(Moditems.ROD_OSMIUM);
                         output.accept(Moditems.ROD_URANIUM);
                     }).build());
@@ -67,6 +74,7 @@ public class ModCreativeModeTabs {
                     .withTabsBefore(ResourceLocation.fromNamespaceAndPath(EternalItems.MOD_ID, "eternal_items_tab"))
                     .title(Component.translatable("creativetab.eternalitems.eternal_plates"))
                     .displayItems((itemDisplayParameters, output) -> {
+                        output.accept(Moditems.PLATE_LEAD);
                         output.accept(Moditems.PLATE_OSMIUM);
                         output.accept(Moditems.PLATE_URANIUM);
                     }).build());
@@ -93,6 +101,16 @@ public class ModCreativeModeTabs {
                         output.accept(Moditems.RAW_NICKEL);
                         output.accept(Moditems.RAW_SILVER);
                     }).build());
+//ORE DUST
+public static final Supplier<CreativeModeTab> ETERNAL_ORE_DUST_TAB = CREATIVE_MODE_TAB.register("eternal_ore_dust_tab",
+        ()-> CreativeModeTab.builder().icon(()-> new ItemStack(Moditems.OSMIUM_DUST.get()))
+                .withTabsBefore(ResourceLocation.fromNamespaceAndPath(EternalItems.MOD_ID, "eternal_items_tab"))
+                .title(Component.translatable("creativetab.eternalitems.eternal_ore_dust"))
+                .displayItems((itemDisplayParameters, output) -> {
+                    output.accept(Moditems.LEAD_DUST);
+                    output.accept(Moditems.OSMIUM_DUST);
+                    output.accept(Moditems.URANIUM_DUST);
+                }).build());
 ////BLOCKS
 //ORE BLOCKS
     public static final Supplier<CreativeModeTab> ETERNAL_ORE_BLOCKS = CREATIVE_MODE_TAB.register("eternal_ore_blocks",
@@ -100,9 +118,12 @@ public class ModCreativeModeTabs {
                     .withTabsBefore(ResourceLocation.fromNamespaceAndPath(EternalItems.MOD_ID, "eternal_items_tab"))
                     .title(Component.translatable("creativetab.eternalitems.eternal_ore_blocks"))
                     .displayItems((itemDisplayParameters, output) -> {
+                        output.accept(ModBlocks.LEAD_ORE_BLOCK);
                         output.accept(ModBlocks.URANIUM_ORE_BLOCK);
                         output.accept(ModBlocks.OSMIUM_ORE_BLOCK);
+                        output.accept(ModBlocks.DEEPSLATE_LEAD_ORE_BLOCK);
                         output.accept(ModBlocks.DEEPSLATE_OSMIUM_ORE_BLOCK);
+                        output.accept(ModBlocks.DEEPSLATE_URANIUM_ORE_BLOCK);
                     }).build());
 //METAL BLOCKS
 public static final Supplier<CreativeModeTab> ETERNAL_BLOCKS = CREATIVE_MODE_TAB.register("eternal_blocks",
@@ -110,6 +131,7 @@ public static final Supplier<CreativeModeTab> ETERNAL_BLOCKS = CREATIVE_MODE_TAB
                 .withTabsBefore(ResourceLocation.fromNamespaceAndPath(EternalItems.MOD_ID, "eternal_items_tab"))
                 .title(Component.translatable("creativetab.eternalitems.eternal_blocks"))
                 .displayItems((itemDisplayParameters, output) -> {
+                    output.accept(ModBlocks.LEAD_BLOCK);
                     output.accept(ModBlocks.OSMIUM_BLOCK);
                     output.accept(ModBlocks.URANIUM_BLOCK);
                 }).build());
@@ -119,6 +141,7 @@ public static final Supplier<CreativeModeTab> ETERNAL_BLOCKS = CREATIVE_MODE_TAB
                     .withTabsBefore(ResourceLocation.fromNamespaceAndPath(EternalItems.MOD_ID, "eternal_items_tab"))
                     .title(Component.translatable("creativetab.eternalitems.eternal_raw_ore_blocks"))
                     .displayItems((itemDisplayParameters, output) -> {
+                        output.accept(ModBlocks.RAW_LEAD_BLOCK);
                          output.accept(ModBlocks.RAW_OSMIUM_BLOCK);
                          output.accept(ModBlocks.RAW_URANIUM_BLOCK);
                     }).build());
