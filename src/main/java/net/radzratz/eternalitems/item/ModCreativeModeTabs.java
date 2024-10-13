@@ -21,15 +21,19 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.eternalitems.eternal_items"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(Moditems.ANTIMATTER_FUSE);
+                        output.accept(Moditems.ANGELS_STRING);
                         output.accept(Moditems.BLACK_HOLE);
                         output.accept(Moditems.CAPACITOR);
                         output.accept(Moditems.COMET_SHARD);
                         output.accept(Moditems.DEMONIC_HEART);
+                        output.accept(Moditems.DEVILS_TOOTH);
                         output.accept(Moditems.ETERNAL_VORTEX);
                         output.accept(Moditems.FORGOTTEN_SEA_COIN);
+                        output.accept(Moditems.GODS_TEAR);
                         output.accept(Moditems.GREGTASTIC_ATOMIC_PHD);
                         output.accept(Moditems.MULTIPRESS);
                         output.accept(Moditems.RATZ_HEAD);
+                        output.accept(Moditems.SERAPHIMS_FEATHER);
                         output.accept(Moditems.SOURCE_MANIFESTATION);
                         output.accept(Moditems.UNDEAD_HAND);
                     }).build());

@@ -1,26 +1,29 @@
-
+English Section
+======
 About
 =======
 
 Eternal Items mod adds quite a lot of known items to a single mod.
 
-Whether you want Ingots, Foods, Gears, Ore Blocks and even Raw Ores, you will find 'almost' EVERYTHING in one spot!
+Whether you want known Ingots, *forgotten* and *new* Foods, Gears, Ore Blocks and even Raw Ores, Metal Blocks, you will find 'almost' **EVERYTHING** in one spot!
 
 We even have quite a lot of NEW Items for you use!
 
-**Note**: These items DO NOT HAVE a recipe included, items such as Gears, Ingots, Metal Blocks, Nuggets, Ore Blocks and Raw Ores do have a recipe!
-But this mod was created with the intent to be used in --LOTS-- of Modpacks, but ||**Catalyst Evolution Modpack**|| is the main focus of this mod.
+**Note**: These items DO NOT HAVE a recipe include.
 
-We also added new items for known mods like:
+Mod Compat (W.I.P)
+===================
 
-**Ars Nouveau**,
-**Applied Energistics 2** (NYI),
-**EvilCraft** (NIY),
-**EnderIO** (NYI),
-**GregTech**,
-**Mekanism**,
-**Occultism**,
-**Productive Bees** (NYI),
+We also plan to add Items for mods, but we already have some prepared!
+
+**Like**;
+
+- Ars Nouveau (Implemented)
+- Applied Energistics 2 (Implemented)
+- Evilraft (NYI)
+- GregTech (Implemented)
+- Forbidden And Arcanus (NYI)
+- Occultism (Implemented)
 
 KubeJS
 ============
@@ -35,24 +38,76 @@ Need more help?
 
 Go to their Discord Server to ask about this mod and its capabilities: https://discord.gg/lat
 
-Catalyst Evolution ModPack
+Catalyst Team
 ==========
-
-Modpack Link: https://www.curseforge.com/minecraft/modpacks/the-evolution-pack
 
 Discord Server Link: https://discord.gg/FAvjyGtDbf
 
-Contributions
-==========
+Translation to other Languages
+=============
 
-Want to contribute with **Translations**, **New Items** or **New Item Models**?
+This mod ships in with English & Spanish translations by default!
 
-Ask us to talk about the contributions you want to do!
-
-We will add your Username and the items you contributed over the credits.
-
-**Note**: With the Translations you are free to contribute without asking me, simply create a PR over Github and we'll gladly look at it.
+With the Translations you are free to contribute without asking me, simply create a PR over Github and we'll gladly look at it.
 
 However, make sure to **NOT USE ANY TYPE OF AI ON IT**!!!
 
-We are looking for people that actually speak that language.
+We are looking for people that actually speak that language. We love machine, but not that kind of machine!
+
+Credits
+============
+
+This section is still in a W.I.P state!
+
+- RadzRatz - Mod Author - Base Items/Blocks Creator
+- 
+
+Licence
+=======
+
+As stated, this mod is under MIT License. And I approve anyone who forks this project, but I would really appreciate you mention me if you
+plan on doing a backport of this mod or using the textures on your project!
+
+**BUT** I do not allow the distribution of Eternal Items mod outside CurseForge or Modrinth Websites.
+
+Don't be a jerk!
+
+*atte RadzRatz*
+
+Sección en Español
+=======
+Acerca
+=======
+
+El mod Eternal Items o Ítems Eternos agrega muchisimos objetos nuevos y conocidos.
+
+Como Lingotes, Comidas *perdidas* y *nuevas*, Engranajes, Bloques de Minerales e inclusive sus versiones en bruto, Metal Blocks, aqui encontraras 'casi' **TODO** en un solo lugar!
+
+**Nota**: Algunos ítems NO TIENEN UNA RECETA.
+
+Compatibilidad con Mods (T.E.P)
+===================
+
+Tambien planeamos agregar nuevos para mods conocidos, pero ya tenemos unos preparados!
+
+**Como**;
+
+- Ars Nouveau (Implementado)
+- Applied Energistics 2 (Implementado)
+- EvilCraft (NI)
+- GregTech (Implementado)
+- Forbidden And Arcanus (NI)
+- Occultism (Implementado)
+
+KubeJS
+============
+
+Como lo mencionamos, algunos ítems no tienen una receta, pero las puedes agregar con **KubeJS** para darles una receta nueva y una **FUNCIONALIDAD**.
+
+No sabes acerca del mod de KubeJS?
+
+Aqui podras encontrar toda la documentación necesaria: https://wiki.latvian.dev/books/kubejs/page/recipes
+
+Necesitas más ayuda?
+
+Visita su Discord para aprender más y concer sus capacidades: https://discord.gg/lat

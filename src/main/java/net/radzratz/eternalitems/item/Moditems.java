@@ -40,6 +40,14 @@ public class Moditems {
             ()-> new Item(new Item.Properties()));
     public static final DeferredItem<Item> UNDEAD_HAND = ITEMS.register("undead_hand",
             ()-> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> GODS_TEAR = ITEMS.register("gods_tear",
+            ()-> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> DEVILS_TOOTH = ITEMS.register("devils_tooth",
+            ()-> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> ANGELS_STRING = ITEMS.register("angels_string",
+            ()-> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> SERAPHIMS_FEATHER = ITEMS.register("seraphims_feather",
+            ()-> new Item(new Item.Properties()));
 
     //Ingots
     public static final DeferredItem<Item> STEEL_INGOT = ITEMS.register("steel_ingot",

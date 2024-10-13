@@ -1,5 +1,6 @@
 package net.radzratz.eternalitems;
 
+import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.neoforged.fml.ModList;
 import net.radzratz.eternalitems.block.ModBlocks;
@@ -77,9 +78,19 @@ public class EternalItems
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
 
+        //Pickaxe, Axe, Shovel, Hoe
+        //if(event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+
+        //}
+        //Swords
+        //if(event.getTabKey() == CreativeModeTabs.COMBAT) {
+
+        //}
+
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             //Items
             event.accept(Moditems.DEMONIC_HEART);
+            event.accept(Moditems.DEVILS_TOOTH);
             event.accept(Moditems.SOURCE_MANIFESTATION);
             event.accept(Moditems.RATZ_HEAD);
             event.accept(Moditems.ANTIMATTER_FUSE);
@@ -90,6 +101,9 @@ public class EternalItems
             event.accept(Moditems.FORGOTTEN_SEA_COIN);
             event.accept(Moditems.ETERNAL_VORTEX);
             event.accept(Moditems.MULTIPRESS);
+            event.accept(Moditems.GODS_TEAR);
+            event.accept(Moditems.ANGELS_STRING);
+            event.accept(Moditems.SERAPHIMS_FEATHER);
             //Ingots
             event.accept(Moditems.ALUMINUM_INGOT);
             event.accept(Moditems.ETERNAL_DARK_INGOT);
