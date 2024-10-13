@@ -114,14 +114,19 @@ public class EternalItems
             event.accept(Moditems.OSMIUM_INGOT);
             event.accept(Moditems.URANIUM_INGOT);
             //Nuggets
+            event.accept(Moditems.ALUMINUM_NUGGET);
             event.accept(Moditems.LEAD_NUGGET);
             event.accept(Moditems.OSMIUM_NUGGET);
             event.accept(Moditems.URANIUM_NUGGET);
             //Rods
+            event.accept(Moditems.ROD_ALUMINUM);
+            event.accept(Moditems.ROD_GOLD);
             event.accept(Moditems.ROD_LEAD);
             event.accept(Moditems.ROD_OSMIUM);
             event.accept(Moditems.ROD_URANIUM);
             //Plates
+            event.accept(Moditems.PLATE_ALUMINUM);
+            event.accept(Moditems.PLATE_GOLD);
             event.accept(Moditems.PLATE_LEAD);
             event.accept(Moditems.PLATE_OSMIUM);
             event.accept(Moditems.PLATE_URANIUM);
@@ -137,13 +142,22 @@ public class EternalItems
             event.accept(Moditems.RAW_TIN);
             event.accept(Moditems.RAW_URANIUM);
             //Ore Dust
+            event.accept(Moditems.ALUMINUM_DUST);
+            event.accept(Moditems.GOLD_DUST);
             event.accept(Moditems.LEAD_DUST);
             event.accept(Moditems.OSMIUM_DUST);
             event.accept(Moditems.URANIUM_DUST);
+            //Gems
+            event.accept(Moditems.GEM_OBSIDIAN_SHARD);
+            event.accept(Moditems.GEM_ONYX);
+            event.accept(Moditems.GEM_PERIDOT);
+            event.accept(Moditems.GEM_RUBY);
+            event.accept(Moditems.GEM_SAPPHIRE);
         }
 
         if(event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
             //ORE BLOCKS
+            event.accept(ModBlocks.ALUMINUM_ORE_BLOCK);
             event.accept(ModBlocks.LEAD_ORE_BLOCK);
             event.accept(ModBlocks.OSMIUM_ORE_BLOCK);
             event.accept(ModBlocks.URANIUM_ORE_BLOCK);
@@ -152,12 +166,14 @@ public class EternalItems
             event.accept(ModBlocks.DEEPSLATE_OSMIUM_ORE_BLOCK);
             event.accept(ModBlocks.DEEPSLATE_URANIUM_ORE_BLOCK);
             //RAW ORE BLOCKS
+            event.accept(ModBlocks.RAW_ALUMINUM_BLOCK);
             event.accept(ModBlocks.RAW_LEAD_BLOCK);
             event.accept(ModBlocks.RAW_OSMIUM_BLOCK);
             event.accept(ModBlocks.RAW_URANIUM_BLOCK);
         }
         //METAL BLOCKS
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.ALUMINUM_BLOCK);
             event.accept(ModBlocks.LEAD_BLOCK);
             event.accept(ModBlocks.OSMIUM_BLOCK);
             event.accept(ModBlocks.URANIUM_BLOCK);

@@ -18,6 +18,12 @@ public class ModBlocks {
             DeferredRegister.createBlocks(EternalItems.MOD_ID);
 
     //ORE BLOCKS
+    //Aluminum
+    public static final DeferredBlock<Block> ALUMINUM_ORE_BLOCK = registerBlock("aluminum_ore_block",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(3f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)));
     //Lead
     public static final DeferredBlock<Block> LEAD_ORE_BLOCK = registerBlock("lead_ore_block",
             () -> new Block(BlockBehaviour.Properties.of()
@@ -53,6 +59,11 @@ public class ModBlocks {
                     .sound(SoundType.DEEPSLATE)));
 
     //RAW ORE BLOCKS
+    public static final DeferredBlock<Block> RAW_ALUMINUM_BLOCK = registerBlock("raw_aluminum_block",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(3f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)));
     public static final DeferredBlock<Block> RAW_LEAD_BLOCK = registerBlock("raw_lead_block",
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(3f)
@@ -70,6 +81,11 @@ public class ModBlocks {
                     .sound(SoundType.STONE)));
 
     //METAL BLOCK
+    public static final DeferredBlock<Block> ALUMINUM_BLOCK = registerBlock("aluminum_block",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(3f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)));
     public static final DeferredBlock<Block> LEAD_BLOCK = registerBlock("lead_block",
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(3f)

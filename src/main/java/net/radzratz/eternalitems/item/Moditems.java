@@ -68,6 +68,8 @@ public class Moditems {
             ()-> new Item(new Item.Properties()));
 
     //Nuggets
+    public static final DeferredItem<Item> ALUMINUM_NUGGET = ITEMS.register("aluminum_nugget",
+            ()-> new Item(new Item.Properties()));
     public static final DeferredItem<Item> LEAD_NUGGET = ITEMS.register("lead_nugget",
             ()-> new Item(new Item.Properties()));
     public static final DeferredItem<Item> OSMIUM_NUGGET = ITEMS.register("osmium_nugget",
@@ -76,19 +78,27 @@ public class Moditems {
             ()-> new Item(new Item.Properties()));
 
     //Rods
+    public static final DeferredItem<Item> ROD_ALUMINUM = ITEMS.register("rod_aluminum",
+            ()-> new Item(new Item.Properties()));
     public static final DeferredItem<Item> ROD_LEAD = ITEMS.register("rod_lead",
             ()-> new Item(new Item.Properties()));
     public static final DeferredItem<Item> ROD_OSMIUM = ITEMS.register("rod_osmium",
             ()-> new Item(new Item.Properties()));
     public static final DeferredItem<Item> ROD_URANIUM = ITEMS.register("rod_uranium",
             ()-> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> ROD_GOLD = ITEMS.register("rod_gold",
+            ()-> new Item(new Item.Properties()));
 
     //Plates
+    public static final DeferredItem<Item> PLATE_ALUMINUM = ITEMS.register("plate_aluminum",
+            ()-> new Item(new Item.Properties()));
     public static final DeferredItem<Item> PLATE_LEAD = ITEMS.register("plate_lead",
             ()-> new Item(new Item.Properties()));
     public static final DeferredItem<Item> PLATE_OSMIUM = ITEMS.register("plate_osmium",
             ()-> new Item(new Item.Properties()));
     public static final DeferredItem<Item> PLATE_URANIUM = ITEMS.register("plate_uranium",
+            ()-> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> PLATE_GOLD = ITEMS.register("plate_gold",
             ()-> new Item(new Item.Properties()));
 
     //Gears
@@ -114,11 +124,27 @@ public class Moditems {
             ()-> new Item(new Item.Properties()));
 
     //Ore Dust
+    public static final DeferredItem<Item> ALUMINUM_DUST = ITEMS.register("aluminum_dust",
+            ()-> new Item(new Item.Properties()));
     public static final DeferredItem<Item> LEAD_DUST = ITEMS.register("lead_dust",
             ()-> new Item(new Item.Properties()));
     public static final DeferredItem<Item> OSMIUM_DUST = ITEMS.register("osmium_dust",
             ()-> new Item(new Item.Properties()));
     public static final DeferredItem<Item> URANIUM_DUST = ITEMS.register("uranium_dust",
+            ()-> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> GOLD_DUST = ITEMS.register("gold_dust",
+            ()-> new Item(new Item.Properties()));
+
+    //Gems
+    public static final DeferredItem<Item> GEM_OBSIDIAN_SHARD = ITEMS.register("gem_obsidian_shard",
+            ()-> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> GEM_ONYX = ITEMS.register("gem_onyx",
+            ()-> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> GEM_PERIDOT = ITEMS.register("gem_peridot",
+            ()-> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> GEM_RUBY = ITEMS.register("gem_ruby",
+            ()-> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> GEM_SAPPHIRE = ITEMS.register("gem_sapphire",
             ()-> new Item(new Item.Properties()));
 
 

@@ -58,6 +58,7 @@ public class ModCreativeModeTabs {
                     .withTabsBefore(ResourceLocation.fromNamespaceAndPath(EternalItems.MOD_ID, "eternal_items_tab"))
                     .title(Component.translatable("creativetab.eternalitems.eternal_nuggets"))
                     .displayItems((itemDisplayParameters, output) -> {
+                        output.accept(Moditems.ALUMINUM_NUGGET);
                         output.accept(Moditems.LEAD_NUGGET);
                         output.accept(Moditems.OSMIUM_NUGGET);
                         output.accept(Moditems.URANIUM_NUGGET);
@@ -68,6 +69,8 @@ public class ModCreativeModeTabs {
                     .withTabsBefore(ResourceLocation.fromNamespaceAndPath(EternalItems.MOD_ID, "eternal_items_tab"))
                     .title(Component.translatable("creativetab.eternalitems.eternal_rods"))
                     .displayItems((itemDisplayParameters, output) -> {
+                        output.accept(Moditems.ROD_ALUMINUM);
+                        output.accept(Moditems.ROD_GOLD);
                         output.accept(Moditems.ROD_LEAD);
                         output.accept(Moditems.ROD_OSMIUM);
                         output.accept(Moditems.ROD_URANIUM);
@@ -78,6 +81,8 @@ public class ModCreativeModeTabs {
                     .withTabsBefore(ResourceLocation.fromNamespaceAndPath(EternalItems.MOD_ID, "eternal_items_tab"))
                     .title(Component.translatable("creativetab.eternalitems.eternal_plates"))
                     .displayItems((itemDisplayParameters, output) -> {
+                        output.accept(Moditems.PLATE_ALUMINUM);
+                        output.accept(Moditems.PLATE_GOLD);
                         output.accept(Moditems.PLATE_LEAD);
                         output.accept(Moditems.PLATE_OSMIUM);
                         output.accept(Moditems.PLATE_URANIUM);
@@ -96,25 +101,39 @@ public class ModCreativeModeTabs {
                     .withTabsBefore(ResourceLocation.fromNamespaceAndPath(EternalItems.MOD_ID, "eternal_items_tab"))
                     .title(Component.translatable("creativetab.eternalitems.eternal_raw_ores"))
                     .displayItems((itemDisplayParameters, output) -> {
-                        output.accept(Moditems.RAW_URANIUM);
+                        output.accept(Moditems.RAW_ALUMINUM);
+                        output.accept(Moditems.RAW_LEAD);
+                        output.accept(Moditems.RAW_NICKEL);
                         output.accept(Moditems.RAW_OSMIUM);
                         output.accept(Moditems.RAW_PLATINUM);
-                        output.accept(Moditems.RAW_TIN);
-                        output.accept(Moditems.RAW_LEAD);
-                        output.accept(Moditems.RAW_ALUMINUM);
-                        output.accept(Moditems.RAW_NICKEL);
                         output.accept(Moditems.RAW_SILVER);
+                        output.accept(Moditems.RAW_TIN);
+                        output.accept(Moditems.RAW_URANIUM);
                     }).build());
 //ORE DUST
-public static final Supplier<CreativeModeTab> ETERNAL_ORE_DUST_TAB = CREATIVE_MODE_TAB.register("eternal_ore_dust_tab",
-        ()-> CreativeModeTab.builder().icon(()-> new ItemStack(Moditems.OSMIUM_DUST.get()))
-                .withTabsBefore(ResourceLocation.fromNamespaceAndPath(EternalItems.MOD_ID, "eternal_items_tab"))
-                .title(Component.translatable("creativetab.eternalitems.eternal_ore_dust"))
-                .displayItems((itemDisplayParameters, output) -> {
-                    output.accept(Moditems.LEAD_DUST);
-                    output.accept(Moditems.OSMIUM_DUST);
-                    output.accept(Moditems.URANIUM_DUST);
-                }).build());
+    public static final Supplier<CreativeModeTab> ETERNAL_ORE_DUST_TAB = CREATIVE_MODE_TAB.register("eternal_ore_dust_tab",
+            ()-> CreativeModeTab.builder().icon(()-> new ItemStack(Moditems.OSMIUM_DUST.get()))
+                    .withTabsBefore(ResourceLocation.fromNamespaceAndPath(EternalItems.MOD_ID, "eternal_items_tab"))
+                    .title(Component.translatable("creativetab.eternalitems.eternal_ore_dust"))
+                    .displayItems((itemDisplayParameters, output) -> {
+                        output.accept(Moditems.ALUMINUM_DUST);
+                        output.accept(Moditems.GOLD_DUST);
+                        output.accept(Moditems.LEAD_DUST);
+                        output.accept(Moditems.OSMIUM_DUST);
+                        output.accept(Moditems.URANIUM_DUST);
+                    }).build());
+//GEMS
+    public static final Supplier<CreativeModeTab> ETERNAL_GEMS = CREATIVE_MODE_TAB.register("eternal_gems_tab",
+            ()-> CreativeModeTab.builder().icon(()-> new ItemStack(Moditems.GEM_SAPPHIRE.get()))
+                    .withTabsBefore(ResourceLocation.fromNamespaceAndPath(EternalItems.MOD_ID, "eternal_items_tabs"))
+                    .title(Component.translatable("creativetab.eternalitems.eternal_gems"))
+                    .displayItems((itemDisplayParameters, output) -> {
+                        output.accept(Moditems.GEM_OBSIDIAN_SHARD);
+                        output.accept(Moditems.GEM_ONYX);
+                        output.accept(Moditems.GEM_RUBY);
+                        output.accept(Moditems.GEM_PERIDOT);
+                        output.accept(Moditems.GEM_SAPPHIRE);
+                    }).build());
 ////BLOCKS
 //ORE BLOCKS
     public static final Supplier<CreativeModeTab> ETERNAL_ORE_BLOCKS = CREATIVE_MODE_TAB.register("eternal_ore_blocks",
@@ -122,6 +141,7 @@ public static final Supplier<CreativeModeTab> ETERNAL_ORE_DUST_TAB = CREATIVE_MO
                     .withTabsBefore(ResourceLocation.fromNamespaceAndPath(EternalItems.MOD_ID, "eternal_items_tab"))
                     .title(Component.translatable("creativetab.eternalitems.eternal_ore_blocks"))
                     .displayItems((itemDisplayParameters, output) -> {
+                        output.accept(ModBlocks.ALUMINUM_ORE_BLOCK);
                         output.accept(ModBlocks.LEAD_ORE_BLOCK);
                         output.accept(ModBlocks.URANIUM_ORE_BLOCK);
                         output.accept(ModBlocks.OSMIUM_ORE_BLOCK);
@@ -135,9 +155,10 @@ public static final Supplier<CreativeModeTab> ETERNAL_BLOCKS = CREATIVE_MODE_TAB
                 .withTabsBefore(ResourceLocation.fromNamespaceAndPath(EternalItems.MOD_ID, "eternal_items_tab"))
                 .title(Component.translatable("creativetab.eternalitems.eternal_blocks"))
                 .displayItems((itemDisplayParameters, output) -> {
-                    output.accept(ModBlocks.LEAD_BLOCK);
-                    output.accept(ModBlocks.OSMIUM_BLOCK);
-                    output.accept(ModBlocks.URANIUM_BLOCK);
+                        output.accept(ModBlocks.ALUMINUM_BLOCK);
+                        output.accept(ModBlocks.LEAD_BLOCK);
+                        output.accept(ModBlocks.OSMIUM_BLOCK);
+                        output.accept(ModBlocks.URANIUM_BLOCK);
                 }).build());
 //RAW ORE BLOCKS
     public static final Supplier<CreativeModeTab> ETERNAL_RAW_ORE_BLOCKS = CREATIVE_MODE_TAB.register("eternal_raw_ore_blocks",
@@ -145,9 +166,10 @@ public static final Supplier<CreativeModeTab> ETERNAL_BLOCKS = CREATIVE_MODE_TAB
                     .withTabsBefore(ResourceLocation.fromNamespaceAndPath(EternalItems.MOD_ID, "eternal_items_tab"))
                     .title(Component.translatable("creativetab.eternalitems.eternal_raw_ore_blocks"))
                     .displayItems((itemDisplayParameters, output) -> {
+                        output.accept(ModBlocks.RAW_ALUMINUM_BLOCK);
                         output.accept(ModBlocks.RAW_LEAD_BLOCK);
-                         output.accept(ModBlocks.RAW_OSMIUM_BLOCK);
-                         output.accept(ModBlocks.RAW_URANIUM_BLOCK);
+                        output.accept(ModBlocks.RAW_OSMIUM_BLOCK);
+                        output.accept(ModBlocks.RAW_URANIUM_BLOCK);
                     }).build());
 
     public static void register(IEventBus eventBus) {
