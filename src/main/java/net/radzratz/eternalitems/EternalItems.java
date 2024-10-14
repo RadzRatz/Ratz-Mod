@@ -112,23 +112,27 @@ public class EternalItems
             event.accept(Moditems.LEAD_INGOT);
             event.accept(Moditems.STEEL_INGOT);
             event.accept(Moditems.OSMIUM_INGOT);
+            event.accept(Moditems.PLATINUM_INGOT);
             event.accept(Moditems.URANIUM_INGOT);
             //Nuggets
             event.accept(Moditems.ALUMINUM_NUGGET);
             event.accept(Moditems.LEAD_NUGGET);
             event.accept(Moditems.OSMIUM_NUGGET);
+            event.accept(Moditems.PLATINUM_NUGGET);
             event.accept(Moditems.URANIUM_NUGGET);
             //Rods
             event.accept(Moditems.ROD_ALUMINUM);
             event.accept(Moditems.ROD_GOLD);
             event.accept(Moditems.ROD_LEAD);
             event.accept(Moditems.ROD_OSMIUM);
+            event.accept(Moditems.ROD_PLATINUM);
             event.accept(Moditems.ROD_URANIUM);
             //Plates
             event.accept(Moditems.PLATE_ALUMINUM);
             event.accept(Moditems.PLATE_GOLD);
             event.accept(Moditems.PLATE_LEAD);
             event.accept(Moditems.PLATE_OSMIUM);
+            event.accept(Moditems.PLATE_PLATINUM);
             event.accept(Moditems.PLATE_URANIUM);
             //Gears
             event.accept(Moditems.ULTIMATE_GEAR);
@@ -146,6 +150,7 @@ public class EternalItems
             event.accept(Moditems.GOLD_DUST);
             event.accept(Moditems.LEAD_DUST);
             event.accept(Moditems.OSMIUM_DUST);
+            event.accept(Moditems.PLATINUM_DUST);
             event.accept(Moditems.URANIUM_DUST);
             //Gems
             event.accept(Moditems.GEM_OBSIDIAN_SHARD);
@@ -160,15 +165,18 @@ public class EternalItems
             event.accept(ModBlocks.ALUMINUM_ORE_BLOCK);
             event.accept(ModBlocks.LEAD_ORE_BLOCK);
             event.accept(ModBlocks.OSMIUM_ORE_BLOCK);
+            event.accept(ModBlocks.PLATINUM_ORE_BLOCK);
             event.accept(ModBlocks.URANIUM_ORE_BLOCK);
-            //DEEPSLATE ORE BLOCKS
+            //DEEPSLATE ORE BLOCKS (If there is one)
             event.accept(ModBlocks.DEEPSLATE_LEAD_ORE_BLOCK);
             event.accept(ModBlocks.DEEPSLATE_OSMIUM_ORE_BLOCK);
+            event.accept(ModBlocks.DEEPSLATE_PLATINUM_ORE_BLOCK);
             event.accept(ModBlocks.DEEPSLATE_URANIUM_ORE_BLOCK);
             //RAW ORE BLOCKS
             event.accept(ModBlocks.RAW_ALUMINUM_BLOCK);
             event.accept(ModBlocks.RAW_LEAD_BLOCK);
             event.accept(ModBlocks.RAW_OSMIUM_BLOCK);
+            event.accept(ModBlocks.RAW_PLATINUM_BLOCK);
             event.accept(ModBlocks.RAW_URANIUM_BLOCK);
         }
         //METAL BLOCKS
@@ -176,6 +184,7 @@ public class EternalItems
             event.accept(ModBlocks.ALUMINUM_BLOCK);
             event.accept(ModBlocks.LEAD_BLOCK);
             event.accept(ModBlocks.OSMIUM_BLOCK);
+            event.accept(ModBlocks.PLATINUM_BLOCK);
             event.accept(ModBlocks.URANIUM_BLOCK);
         }
 

@@ -50,6 +50,7 @@ public class ModCreativeModeTabs {
                         output.accept(Moditems.LEAD_INGOT);
                         output.accept(Moditems.STEEL_INGOT);
                         output.accept(Moditems.OSMIUM_INGOT);
+                        output.accept(Moditems.PLATINUM_INGOT);
                         output.accept(Moditems.URANIUM_INGOT);
                     }).build());
 //NUGGETS
@@ -61,6 +62,7 @@ public class ModCreativeModeTabs {
                         output.accept(Moditems.ALUMINUM_NUGGET);
                         output.accept(Moditems.LEAD_NUGGET);
                         output.accept(Moditems.OSMIUM_NUGGET);
+                        output.accept(Moditems.PLATINUM_NUGGET);
                         output.accept(Moditems.URANIUM_NUGGET);
                     }).build());
 //RODS
@@ -73,6 +75,7 @@ public class ModCreativeModeTabs {
                         output.accept(Moditems.ROD_GOLD);
                         output.accept(Moditems.ROD_LEAD);
                         output.accept(Moditems.ROD_OSMIUM);
+                        output.accept(Moditems.ROD_PLATINUM);
                         output.accept(Moditems.ROD_URANIUM);
                     }).build());
 //PLATES
@@ -85,6 +88,7 @@ public class ModCreativeModeTabs {
                         output.accept(Moditems.PLATE_GOLD);
                         output.accept(Moditems.PLATE_LEAD);
                         output.accept(Moditems.PLATE_OSMIUM);
+                        output.accept(Moditems.PLATE_PLATINUM);
                         output.accept(Moditems.PLATE_URANIUM);
                     }).build());
 //GEARS
@@ -120,6 +124,7 @@ public class ModCreativeModeTabs {
                         output.accept(Moditems.GOLD_DUST);
                         output.accept(Moditems.LEAD_DUST);
                         output.accept(Moditems.OSMIUM_DUST);
+                        output.accept(Moditems.PLATINUM_DUST);
                         output.accept(Moditems.URANIUM_DUST);
                     }).build());
 //GEMS
@@ -145,8 +150,10 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.LEAD_ORE_BLOCK);
                         output.accept(ModBlocks.URANIUM_ORE_BLOCK);
                         output.accept(ModBlocks.OSMIUM_ORE_BLOCK);
+                        output.accept(ModBlocks.PLATINUM_ORE_BLOCK);
                         output.accept(ModBlocks.DEEPSLATE_LEAD_ORE_BLOCK);
                         output.accept(ModBlocks.DEEPSLATE_OSMIUM_ORE_BLOCK);
+                        output.accept(ModBlocks.DEEPSLATE_PLATINUM_ORE_BLOCK);
                         output.accept(ModBlocks.DEEPSLATE_URANIUM_ORE_BLOCK);
                     }).build());
 //METAL BLOCKS
@@ -158,6 +165,7 @@ public static final Supplier<CreativeModeTab> ETERNAL_BLOCKS = CREATIVE_MODE_TAB
                         output.accept(ModBlocks.ALUMINUM_BLOCK);
                         output.accept(ModBlocks.LEAD_BLOCK);
                         output.accept(ModBlocks.OSMIUM_BLOCK);
+                        output.accept(ModBlocks.PLATINUM_BLOCK);
                         output.accept(ModBlocks.URANIUM_BLOCK);
                 }).build());
 //RAW ORE BLOCKS
@@ -169,6 +177,7 @@ public static final Supplier<CreativeModeTab> ETERNAL_BLOCKS = CREATIVE_MODE_TAB
                         output.accept(ModBlocks.RAW_ALUMINUM_BLOCK);
                         output.accept(ModBlocks.RAW_LEAD_BLOCK);
                         output.accept(ModBlocks.RAW_OSMIUM_BLOCK);
+                        output.accept(ModBlocks.RAW_PLATINUM_BLOCK);
                         output.accept(ModBlocks.RAW_URANIUM_BLOCK);
                     }).build());
 
