@@ -48,6 +48,12 @@ public class Moditems {
             ()-> new Item(new Item.Properties()));
     public static final DeferredItem<Item> SERAPHIMS_FEATHER = ITEMS.register("seraphims_feather",
             ()-> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> FLATHEAD_SCREWDRIVER = ITEMS.register("flathead_screwdriver",
+            ()-> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> CROSSHEAD_SCREWDRIVER = ITEMS.register("crosshead_screwdriver",
+            ()-> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> FANG = ITEMS.register("fang",
+            ()-> new Item(new Item.Properties()));
 
     //Ingots
     public static final DeferredItem<Item> STEEL_INGOT = ITEMS.register("steel_ingot",
@@ -80,6 +86,8 @@ public class Moditems {
             ()-> new Item(new Item.Properties()));
     public static final DeferredItem<Item> PLATINUM_NUGGET = ITEMS.register("platinum_nugget",
             ()-> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> COPPER_NUGGET = ITEMS.register("copper_nugget",
+            ()-> new Item(new Item.Properties()));
 
     //Rods
     public static final DeferredItem<Item> ROD_ALUMINUM = ITEMS.register("rod_aluminum",
@@ -94,6 +102,8 @@ public class Moditems {
             ()-> new Item(new Item.Properties()));
     public static final DeferredItem<Item> ROD_PLATINUM = ITEMS.register("rod_platinum",
             ()-> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> ROD_COPPER = ITEMS.register("rod_copper",
+            ()-> new Item(new Item.Properties()));
 
     //Plates
     public static final DeferredItem<Item> PLATE_ALUMINUM = ITEMS.register("plate_aluminum",
@@ -107,6 +117,8 @@ public class Moditems {
     public static final DeferredItem<Item> PLATE_GOLD = ITEMS.register("plate_gold",
             ()-> new Item(new Item.Properties()));
     public static final DeferredItem<Item> PLATE_PLATINUM = ITEMS.register("plate_platinum",
+            ()-> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> PLATE_COPPER = ITEMS.register("plate_copper",
             ()-> new Item(new Item.Properties()));
 
     //Gears
@@ -143,6 +155,8 @@ public class Moditems {
     public static final DeferredItem<Item> GOLD_DUST = ITEMS.register("gold_dust",
             ()-> new Item(new Item.Properties()));
     public static final DeferredItem<Item> PLATINUM_DUST = ITEMS.register("platinum_dust",
+            ()-> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> COPPER_DUST = ITEMS.register("copper_dust",
             ()-> new Item(new Item.Properties()));
 
     //Gems
