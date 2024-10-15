@@ -56,15 +56,29 @@ public class Moditems {
             ()-> new Item(new Item.Properties()));
     public static final DeferredItem<Item> SILICON = ITEMS.register("silicon",
             ()-> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> SULFUR = ITEMS.register("sulfur",
+            ()-> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> SULFUR_DUST = ITEMS.register("sulfur_dust",
+            ()-> new Item(new Item.Properties()));
 
     //Swords
     public static final DeferredItem<Item> ETERNAL_DARK_SWORD = ITEMS.register("eternal_dark_sword",
             ()-> new Item(new Item.Properties()));
     public static final DeferredItem<Item> COPPER_SWORD = ITEMS.register("copper_sword",
             ()-> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> BONE_KNIFE = ITEMS.register("bone_knife",
+            ()-> new Item(new Item.Properties()));
 
     //Pickaxes
+    public static final DeferredItem<Item> COPPER_PICKAXE = ITEMS.register("copper_pickaxe",
+            ()-> new Item(new Item.Properties()));
     public static final DeferredItem<Item> ETERNAL_DARK_PICKAXE = ITEMS.register("eternal_dark_pickaxe",
+            ()-> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> COPPER_AXE = ITEMS.register("copper_axe",
+            ()-> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> COPPER_SHOVEL = ITEMS.register("copper_shovel",
+            ()-> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> COPPER_HOE = ITEMS.register("copper_hoe",
             ()-> new Item(new Item.Properties()));
 
     //Ingots

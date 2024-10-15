@@ -28,6 +28,7 @@ public class ModCreativeModeTabs {
                         output.accept(Moditems.DEMONIC_HEART);
                         output.accept(Moditems.DEVILS_TOOTH);
                         output.accept(Moditems.ETERNAL_VORTEX);
+                        output.accept(Moditems.FANG);
                         output.accept(Moditems.FORGOTTEN_SEA_COIN);
                         output.accept(Moditems.GODS_TEAR);
                         output.accept(Moditems.GREGTASTIC_ATOMIC_PHD);
@@ -39,20 +40,25 @@ public class ModCreativeModeTabs {
                         output.accept(Moditems.UNDEAD_HAND);
                     }).build());
 
-//Swords
-public static final Supplier<CreativeModeTab> ETERNAL_SWORDS_TAB = CREATIVE_MODE_TAB.register("eternal_swords_tab",
+//WEAPONS
+public static final Supplier<CreativeModeTab> ETERNAL_SWORDS_TAB = CREATIVE_MODE_TAB.register("eternal_weapons_tab",
         ()-> CreativeModeTab.builder().icon(()-> new ItemStack(Moditems.ETERNAL_DARK_SWORD.get()))
-                .title(Component.translatable("creativetab.eternalitems.eternal_swords"))
+                .title(Component.translatable("creativetab.eternalitems.eternal_weapons"))
                 .displayItems((itemDisplayParameters, output) -> {
+                    output.accept(Moditems.BONE_KNIFE);
                     output.accept(Moditems.COPPER_SWORD);
                     output.accept(Moditems.ETERNAL_DARK_SWORD);
                 }).build());
 
-//Pickaxes
-public static final Supplier<CreativeModeTab> ETERNAL_PICKAXES_TAB = CREATIVE_MODE_TAB.register("eternal_pickaxe_tab",
+//TOOLS
+public static final Supplier<CreativeModeTab> ETERNAL_PICKAXES_TAB = CREATIVE_MODE_TAB.register("eternal_tools_tab",
         ()-> CreativeModeTab.builder().icon(()-> new ItemStack(Moditems.ETERNAL_DARK_PICKAXE.get()))
-                .title(Component.translatable("creativetab.eternalitems.eternal_pickaxes"))
+                .title(Component.translatable("creativetab.eternalitems.eternal_tools"))
                 .displayItems((itemDisplayParameters, output) -> {
+                    output.accept(Moditems.COPPER_AXE);
+                    output.accept(Moditems.COPPER_HOE);
+                    output.accept(Moditems.COPPER_PICKAXE);
+                    output.accept(Moditems.COPPER_SHOVEL);
                     output.accept(Moditems.ETERNAL_DARK_PICKAXE);
                 }).build());
 
@@ -151,6 +157,7 @@ public static final Supplier<CreativeModeTab> ETERNAL_PICKAXES_TAB = CREATIVE_MO
                         output.accept(Moditems.LEAD_DUST);
                         output.accept(Moditems.OSMIUM_DUST);
                         output.accept(Moditems.PLATINUM_DUST);
+                        output.accept(Moditems.SULFUR_DUST);
                         output.accept(Moditems.URANIUM_DUST);
                     }).build());
 //GEMS
@@ -164,6 +171,7 @@ public static final Supplier<CreativeModeTab> ETERNAL_PICKAXES_TAB = CREATIVE_MO
                         output.accept(Moditems.GEM_RUBY);
                         output.accept(Moditems.GEM_PERIDOT);
                         output.accept(Moditems.GEM_SAPPHIRE);
+                        output.accept(Moditems.SULFUR);
                     }).build());
 ////BLOCKS
 //ORE BLOCKS

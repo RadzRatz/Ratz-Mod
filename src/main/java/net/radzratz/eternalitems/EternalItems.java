@@ -78,15 +78,6 @@ public class EternalItems
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
 
-        //Pickaxe, Axe, Shovel, Hoe
-        //if(event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
-
-        //}
-        //Swords
-        //if(event.getTabKey() == CreativeModeTabs.COMBAT) {
-
-        //}
-
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             //Items
             event.accept(Moditems.DEMONIC_HEART);
@@ -105,6 +96,7 @@ public class EternalItems
             event.accept(Moditems.ANGELS_STRING);
             event.accept(Moditems.SERAPHIMS_FEATHER);
             event.accept(Moditems.SILICON);
+            event.accept(Moditems.FANG);
             //Ingots
             event.accept(Moditems.ALUMINUM_INGOT);
             event.accept(Moditems.ETERNAL_DARK_INGOT);
@@ -159,6 +151,7 @@ public class EternalItems
             event.accept(Moditems.LEAD_DUST);
             event.accept(Moditems.OSMIUM_DUST);
             event.accept(Moditems.PLATINUM_DUST);
+            event.accept(Moditems.SULFUR_DUST);
             event.accept(Moditems.URANIUM_DUST);
             //Gems
             event.accept(Moditems.GEM_OBSIDIAN_SHARD);
@@ -166,6 +159,7 @@ public class EternalItems
             event.accept(Moditems.GEM_PERIDOT);
             event.accept(Moditems.GEM_RUBY);
             event.accept(Moditems.GEM_SAPPHIRE);
+            event.accept(Moditems.SULFUR);
         }
 
         if(event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
@@ -197,11 +191,16 @@ public class EternalItems
         }
         //Swords
         if(event.getTabKey() == CreativeModeTabs.COMBAT) {
+            event.accept(Moditems.BONE_KNIFE);
             event.accept(Moditems.COPPER_SWORD);
             event.accept(Moditems.ETERNAL_DARK_SWORD);
         }
         //Pickaxes
         if(event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+            event.accept(Moditems.COPPER_AXE);
+            event.accept(Moditems.COPPER_HOE);
+            event.accept(Moditems.COPPER_PICKAXE);
+            event.accept(Moditems.COPPER_SHOVEL);
             event.accept(Moditems.ETERNAL_DARK_PICKAXE);
         }
 

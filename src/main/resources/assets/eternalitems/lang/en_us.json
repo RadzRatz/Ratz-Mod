@@ -16,11 +16,17 @@
   "item.eternalitems.angels_string": "Angels String",
   "item.eternalitems.seraphims_feather": "Seraphim's Feather",
   "item.eternalitems.silicon": "Silicon",
+  "item.eternalitems.fang": "Fang",
 
   "item.eternalitems.eternal_dark_sword": "Eternal Dark Sword",
   "item.eternalitems.copper_sword": "Copper Sword",
+  "item.eternalitems.bone_knife": "Bone Knife",
 
   "item.eternalitems.eternal_dark_pickaxe": "Eternal Dark Pickaxe",
+  "item.eternalitems.copper_pickaxe": "Copper Pickaxe",
+  "item.eternalitems.copper_shovel": "Copper Shovel",
+  "item.eternalitems.copper_axe": "Copper Axe",
+  "item.eternalitems.copper_hoe": "Copper Hoe",
 
   "item.eternalitems.aluminum_ingot": "Aluminum Ingot",
   "item.eternalitems.eternal_dark_ingot": "Eternal Dark Ingot",
@@ -75,6 +81,7 @@
   "item.eternalitems.lead_dust": "Lead Dust",
   "item.eternalitems.osmium_dust": "Osmium Dust",
   "item.eternalitems.platinum_dust": "Platinum Dust",
+  "item.eternalitems.sulfur_dust": "Sulfur Dust",
   "item.eternalitems.uranium_dust": "Uranium Dust",
 
   "item.eternalitems.gem_obsidian_shard": "Obsidian Shard",
@@ -82,6 +89,7 @@
   "item.eternalitems.gem_ruby": "Ruby",
   "item.eternalitems.gem_peridot": "Peridot",
   "item.eternalitems.gem_sapphire": "Sapphire",
+  "item.eternalitems.sulfur": "Sulfur",
 
   "block.eternalitems.aluminum_ore_block": "Aluminum Ore",
   "block.eternalitems.lead_ore_block": "Lead Ore",
@@ -118,6 +126,6 @@
   "creativetab.eternalitems.eternal_plates": "Eternal Plates",
   "creativetab.eternalitems.eternal_ore_dust": "Eternal Ore Dust",
   "creativetab.eternalitems.eternal_gems": "Eternal Gems",
-  "creativetab.eternalitems.eternal_swords": "Eternal Swords",
-  "creativetab.eternalitems.eternal_pickaxes": "Eternal Pickaxes"
+  "creativetab.eternalitems.eternal_weapons": "Eternal Weapons",
+  "creativetab.eternalitems.eternal_tools": "Eternal Tools"
 }
