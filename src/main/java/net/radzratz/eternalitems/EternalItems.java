@@ -104,6 +104,7 @@ public class EternalItems
             event.accept(Moditems.GODS_TEAR);
             event.accept(Moditems.ANGELS_STRING);
             event.accept(Moditems.SERAPHIMS_FEATHER);
+            event.accept(Moditems.SILICON);
             //Ingots
             event.accept(Moditems.ALUMINUM_INGOT);
             event.accept(Moditems.ETERNAL_DARK_INGOT);
@@ -116,20 +117,25 @@ public class EternalItems
             event.accept(Moditems.URANIUM_INGOT);
             //Nuggets
             event.accept(Moditems.ALUMINUM_NUGGET);
+            event.accept(Moditems.COPPER_NUGGET);
             event.accept(Moditems.LEAD_NUGGET);
             event.accept(Moditems.OSMIUM_NUGGET);
             event.accept(Moditems.PLATINUM_NUGGET);
             event.accept(Moditems.URANIUM_NUGGET);
             //Rods
             event.accept(Moditems.ROD_ALUMINUM);
+            event.accept(Moditems.ROD_COPPER);
             event.accept(Moditems.ROD_GOLD);
+            event.accept(Moditems.ROD_IRON);
             event.accept(Moditems.ROD_LEAD);
             event.accept(Moditems.ROD_OSMIUM);
             event.accept(Moditems.ROD_PLATINUM);
             event.accept(Moditems.ROD_URANIUM);
             //Plates
             event.accept(Moditems.PLATE_ALUMINUM);
+            event.accept(Moditems.PLATE_COPPER);
             event.accept(Moditems.PLATE_GOLD);
+            event.accept(Moditems.PLATE_IRON);
             event.accept(Moditems.PLATE_LEAD);
             event.accept(Moditems.PLATE_OSMIUM);
             event.accept(Moditems.PLATE_PLATINUM);
@@ -147,7 +153,9 @@ public class EternalItems
             event.accept(Moditems.RAW_URANIUM);
             //Ore Dust
             event.accept(Moditems.ALUMINUM_DUST);
+            event.accept(Moditems.COPPER_DUST);
             event.accept(Moditems.GOLD_DUST);
+            event.accept(Moditems.IRON_DUST);
             event.accept(Moditems.LEAD_DUST);
             event.accept(Moditems.OSMIUM_DUST);
             event.accept(Moditems.PLATINUM_DUST);
@@ -186,6 +194,15 @@ public class EternalItems
             event.accept(ModBlocks.OSMIUM_BLOCK);
             event.accept(ModBlocks.PLATINUM_BLOCK);
             event.accept(ModBlocks.URANIUM_BLOCK);
+        }
+        //Swords
+        if(event.getTabKey() == CreativeModeTabs.COMBAT) {
+            event.accept(Moditems.COPPER_SWORD);
+            event.accept(Moditems.ETERNAL_DARK_SWORD);
+        }
+        //Pickaxes
+        if(event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+            event.accept(Moditems.ETERNAL_DARK_PICKAXE);
         }
 
     }

@@ -33,10 +33,29 @@ public class ModCreativeModeTabs {
                         output.accept(Moditems.GREGTASTIC_ATOMIC_PHD);
                         output.accept(Moditems.MULTIPRESS);
                         output.accept(Moditems.RATZ_HEAD);
+                        output.accept(Moditems.SILICON);
                         output.accept(Moditems.SERAPHIMS_FEATHER);
                         output.accept(Moditems.SOURCE_MANIFESTATION);
                         output.accept(Moditems.UNDEAD_HAND);
                     }).build());
+
+//Swords
+public static final Supplier<CreativeModeTab> ETERNAL_SWORDS_TAB = CREATIVE_MODE_TAB.register("eternal_swords_tab",
+        ()-> CreativeModeTab.builder().icon(()-> new ItemStack(Moditems.ETERNAL_DARK_SWORD.get()))
+                .title(Component.translatable("creativetab.eternalitems.eternal_swords"))
+                .displayItems((itemDisplayParameters, output) -> {
+                    output.accept(Moditems.COPPER_SWORD);
+                    output.accept(Moditems.ETERNAL_DARK_SWORD);
+                }).build());
+
+//Pickaxes
+public static final Supplier<CreativeModeTab> ETERNAL_PICKAXES_TAB = CREATIVE_MODE_TAB.register("eternal_pickaxe_tab",
+        ()-> CreativeModeTab.builder().icon(()-> new ItemStack(Moditems.ETERNAL_DARK_PICKAXE.get()))
+                .title(Component.translatable("creativetab.eternalitems.eternal_pickaxes"))
+                .displayItems((itemDisplayParameters, output) -> {
+                    output.accept(Moditems.ETERNAL_DARK_PICKAXE);
+                }).build());
+
 //INGOTS
     public static final Supplier<CreativeModeTab> ETERNAL_INGOTS_TAB = CREATIVE_MODE_TAB.register("eternal_ingots_tab",
             ()-> CreativeModeTab.builder().icon(()-> new ItemStack(Moditems.STEEL_INGOT.get()))
@@ -60,6 +79,7 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.eternalitems.eternal_nuggets"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(Moditems.ALUMINUM_NUGGET);
+                        output.accept(Moditems.COPPER_NUGGET);
                         output.accept(Moditems.LEAD_NUGGET);
                         output.accept(Moditems.OSMIUM_NUGGET);
                         output.accept(Moditems.PLATINUM_NUGGET);
@@ -72,7 +92,9 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.eternalitems.eternal_rods"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(Moditems.ROD_ALUMINUM);
+                        output.accept(Moditems.ROD_COPPER);
                         output.accept(Moditems.ROD_GOLD);
+                        output.accept(Moditems.ROD_IRON);
                         output.accept(Moditems.ROD_LEAD);
                         output.accept(Moditems.ROD_OSMIUM);
                         output.accept(Moditems.ROD_PLATINUM);
@@ -85,7 +107,9 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.eternalitems.eternal_plates"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(Moditems.PLATE_ALUMINUM);
+                        output.accept(Moditems.PLATE_COPPER);
                         output.accept(Moditems.PLATE_GOLD);
+                        output.accept(Moditems.PLATE_IRON);
                         output.accept(Moditems.PLATE_LEAD);
                         output.accept(Moditems.PLATE_OSMIUM);
                         output.accept(Moditems.PLATE_PLATINUM);
@@ -121,7 +145,9 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.eternalitems.eternal_ore_dust"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(Moditems.ALUMINUM_DUST);
+                        output.accept(Moditems.COPPER_DUST);
                         output.accept(Moditems.GOLD_DUST);
+                        output.accept(Moditems.IRON_DUST);
                         output.accept(Moditems.LEAD_DUST);
                         output.accept(Moditems.OSMIUM_DUST);
                         output.accept(Moditems.PLATINUM_DUST);

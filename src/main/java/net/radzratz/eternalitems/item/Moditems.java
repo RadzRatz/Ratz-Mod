@@ -54,6 +54,18 @@ public class Moditems {
             ()-> new Item(new Item.Properties()));
     public static final DeferredItem<Item> FANG = ITEMS.register("fang",
             ()-> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> SILICON = ITEMS.register("silicon",
+            ()-> new Item(new Item.Properties()));
+
+    //Swords
+    public static final DeferredItem<Item> ETERNAL_DARK_SWORD = ITEMS.register("eternal_dark_sword",
+            ()-> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> COPPER_SWORD = ITEMS.register("copper_sword",
+            ()-> new Item(new Item.Properties()));
+
+    //Pickaxes
+    public static final DeferredItem<Item> ETERNAL_DARK_PICKAXE = ITEMS.register("eternal_dark_pickaxe",
+            ()-> new Item(new Item.Properties()));
 
     //Ingots
     public static final DeferredItem<Item> STEEL_INGOT = ITEMS.register("steel_ingot",
@@ -104,6 +116,8 @@ public class Moditems {
             ()-> new Item(new Item.Properties()));
     public static final DeferredItem<Item> ROD_COPPER = ITEMS.register("rod_copper",
             ()-> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> ROD_IRON = ITEMS.register("rod_iron",
+            ()-> new Item(new Item.Properties()));
 
     //Plates
     public static final DeferredItem<Item> PLATE_ALUMINUM = ITEMS.register("plate_aluminum",
@@ -119,6 +133,8 @@ public class Moditems {
     public static final DeferredItem<Item> PLATE_PLATINUM = ITEMS.register("plate_platinum",
             ()-> new Item(new Item.Properties()));
     public static final DeferredItem<Item> PLATE_COPPER = ITEMS.register("plate_copper",
+            ()-> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> PLATE_IRON = ITEMS.register("plate_iron",
             ()-> new Item(new Item.Properties()));
 
     //Gears
@@ -157,6 +173,8 @@ public class Moditems {
     public static final DeferredItem<Item> PLATINUM_DUST = ITEMS.register("platinum_dust",
             ()-> new Item(new Item.Properties()));
     public static final DeferredItem<Item> COPPER_DUST = ITEMS.register("copper_dust",
+            ()-> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> IRON_DUST = ITEMS.register("iron_dust",
             ()-> new Item(new Item.Properties()));
 
     //Gems

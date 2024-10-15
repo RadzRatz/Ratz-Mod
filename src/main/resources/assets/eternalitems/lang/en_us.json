@@ -15,6 +15,12 @@
   "item.eternalitems.devils_tooth": "Devils Tooth",
   "item.eternalitems.angels_string": "Angels String",
   "item.eternalitems.seraphims_feather": "Seraphim's Feather",
+  "item.eternalitems.silicon": "Silicon",
+
+  "item.eternalitems.eternal_dark_sword": "Eternal Dark Sword",
+  "item.eternalitems.copper_sword": "Copper Sword",
+
+  "item.eternalitems.eternal_dark_pickaxe": "Eternal Dark Pickaxe",
 
   "item.eternalitems.aluminum_ingot": "Aluminum Ingot",
   "item.eternalitems.eternal_dark_ingot": "Eternal Dark Ingot",
@@ -27,20 +33,25 @@
   "item.eternalitems.uranium_ingot": "Uranium Ingot",
 
   "item.eternalitems.aluminum_nugget": "Aluminum Nugget",
+  "item.eternalitems.copper_nugget": "Copper Nugget",
   "item.eternalitems.lead_nugget": "Lead Nugget",
   "item.eternalitems.osmium_nugget": "Osmium Nugget",
   "item.eternalitems.platinum_nugget": "Platinum Nugget",
   "item.eternalitems.uranium_nugget": "Uranium Nugget",
 
   "item.eternalitems.rod_aluminum": "Aluminum Rod",
+  "item.eternalitems.rod_copper": "Copper Rod",
   "item.eternalitems.rod_gold": "Gold Rod",
+  "item.eternalitems.rod_iron": "Iron Rod",
   "item.eternalitems.rod_lead": "Lead Rod",
   "item.eternalitems.rod_osmium": "Osmium Rod",
   "item.eternalitems.rod_platinum": "Platinum Rod",
   "item.eternalitems.rod_uranium": "Uranium Rod",
 
   "item.eternalitems.plate_aluminum": "Aluminum Plate",
+  "item.eternalitems.plate_copper": "Copper Plate",
   "item.eternalitems.plate_gold": "Gold Plate",
+  "item.eternalitems.plate_iron": "Iron Plate",
   "item.eternalitems.plate_lead": "Lead Plate",
   "item.eternalitems.plate_osmium": "Osmium Plate",
   "item.eternalitems.plate_platinum": "Platinum Plate",
@@ -58,7 +69,9 @@
   "item.eternalitems.raw_silver": "Raw Silver Ore",
 
   "item.eternalitems.aluminum_dust": "Aluminum Dust",
+  "item.eternalitems.copper_dust": "Copper Dust",
   "item.eternalitems.gold_dust": "Gold Dust",
+  "item.eternalitems.iron_dust": "Iron Dust",
   "item.eternalitems.lead_dust": "Lead Dust",
   "item.eternalitems.osmium_dust": "Osmium Dust",
   "item.eternalitems.platinum_dust": "Platinum Dust",
@@ -104,5 +117,7 @@
   "creativetab.eternalitems.eternal_rods": "Eternal Rods",
   "creativetab.eternalitems.eternal_plates": "Eternal Plates",
   "creativetab.eternalitems.eternal_ore_dust": "Eternal Ore Dust",
-  "creativetab.eternalitems.eternal_gems": "Eternal Gems"
+  "creativetab.eternalitems.eternal_gems": "Eternal Gems",
+  "creativetab.eternalitems.eternal_swords": "Eternal Swords",
+  "creativetab.eternalitems.eternal_pickaxes": "Eternal Pickaxes"
 }
